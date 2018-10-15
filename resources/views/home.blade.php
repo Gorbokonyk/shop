@@ -80,6 +80,10 @@
             <div class="content">
                 <div class="title m-b-md">
                     Jerky
+
+                </div>
+                <div id="app">
+                    <example-component></example-component>
                 </div>
 
                 <div class="links">
@@ -94,3 +98,4 @@
         </div>
     </body>
 </html>
+<script src="{{asset('js/app.js')}}"></script>
