@@ -16,6 +16,7 @@ window.Vue = require('vue');
  */
 
 Vue.component('counter-component', require('./components/CounterComponent'));
+Vue.component('product-component', require('./components/ProductComponent'));
 
 const app = new Vue({
     el: '#app'

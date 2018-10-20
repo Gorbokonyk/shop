@@ -6,6 +6,8 @@
 
     <div id="app">
         <counter-component></counter-component>
+
+        <product-component></product-component>
     </div>
 
 @endsection
