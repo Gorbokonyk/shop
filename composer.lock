@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "66ca7343889332c2b8ecca11c251430c",
+    "content-hash": "7844047056207312ec6fe1cf94391579",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -2308,6 +2308,43 @@
             "description": "CssToInlineStyles is a class that enables you to convert HTML-pages/files into HTML-pages/files with inline styles. This is very useful when you're sending emails.",
             "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles",
             "time": "2017-11-27T11:13:29+00:00"
+        },
+        {
+            "name": "uapixart/laravel-wayforpay",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/uapixart/laravel-wayforpay.git",
+                "reference": "61b477e8d4da936b36d16cc406de65d2acc6c421"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/uapixart/laravel-wayforpay/zipball/61b477e8d4da936b36d16cc406de65d2acc6c421",
+                "reference": "61b477e8d4da936b36d16cc406de65d2acc6c421",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "5.*",
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mykola Kuzmich",
+                    "email": "ua.pixart@gmail.com",
+                    "homepage": "http://pixart.com.ua"
+                }
+            ],
+            "description": "Wayforpay package for Laravel",
+            "keywords": [
+                "laravel",
+                "wayforpay"
+            ],
+            "time": "2017-06-06T07:52:09+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
