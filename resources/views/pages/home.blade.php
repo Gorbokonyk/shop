@@ -13,5 +13,9 @@
     </div>
 
     <a href="/product">product</a>
+    <div id="app">
+        <example-component></example-component>
+        <page-component></page-component>
+    </div>
 
 @stop
