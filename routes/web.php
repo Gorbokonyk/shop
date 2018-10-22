@@ -15,4 +15,4 @@ Route::get('/', function () {
     return view('pages.home');
 });
 Route::get('/product', 'ProductController@index');
-Route::get('/product/get-json', 'ProductController@getJson');
+//Route::get('/product/get-json', 'ProductController@getJson');
