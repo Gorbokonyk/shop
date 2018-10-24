@@ -1,0 +1,45 @@
+.active{
+    background: #000000!important;
+}
+
+.nav-link{
+    border-radius: 4px;
+}
+
+.r_btn{
+    margin-top: 20px;
+}
+
+.service--list{
+    display: none;
+}
+
+.logo{
+    max-width: 230px;
+}
+
+img{
+    max-width: 100%;
+}
+
+.main_baner{
+    height: 350px;
+    background-image: url("https://www.grizzlysnacks.de/media/image/5f/33/05/bj_banner_2_1920x1920.jpg");
+    background-repeat:no-repeat;
+    background-position: center;
+}
+section,h3{
+    padding: 60px 0;
+}
+.cont-baner{
+    height:230px;
+}
+
+.set_rortator{
+
+}
+
+.social{
+    border: solid 1px #8c8c8c;
+}
+
