@@ -16,6 +16,7 @@
 
 .logo{
     max-width: 230px;
+
 }
 
 img{
@@ -33,6 +34,7 @@ section,h3{
 }
 .cont-baner{
     height:230px;
+    width: 100%;
 }
 
 .set_rortator{
@@ -41,5 +43,9 @@ section,h3{
 
 .social{
     border: solid 1px #8c8c8c;
+}
+
+.price{
+    font-size: 45px;
 }
 

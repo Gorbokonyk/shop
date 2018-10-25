@@ -25,10 +25,12 @@
         </div>
     </section>
     <section class="sets">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <img src="https://www.grizzlysnacks.de/media/image/08/e3/28/bj_banner_3_1280x1280.jpg" class="cont-baner img-fluid" alt="">
             </div>
+         </div>
+        <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-7 text-center">
                     <h3>Beef Jerky im Set</h3>
@@ -64,6 +66,7 @@
                 </div>
             </div>
 
+           </div>
         </div>
     </section
     <section class="social">
