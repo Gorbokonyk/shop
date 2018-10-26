@@ -12,7 +12,7 @@
     </div>
     <div class="row justify-content-between  mt-5">
         <div class="col-lg-2">
-            <a href="/"><img src=" https://www.grizzlysnacks.de/media/image/3a/b9/4b/grizzly_logo_neu.png" alt="" class="logo"></a>
+           <h1><a>Logo</a></h1>
         </div>
         <div class="col-lg-4">
 

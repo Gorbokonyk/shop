@@ -20,14 +20,14 @@
 
                     Ob im Büro oder in der Uni, auf Ausflügen oder Reisen, beim Sport, Camping und selbst in Diäten – Grizzly Snacks Beef Jerky ist der leichte und unkomplizierte, gesunde und eiweißreiche Snack und die perfekte Alternative zu Fastfood oder Süßigkeiten.
                 </div>
-                <div class="col-lg-4"><img  class="img-thumbnail" src="https://www.grizzlysnacks.de/media/image/98/a8/c0/bj_ps_50_600x600.jpg" alt=""></div>
+                <div class="col-lg-4"><img  class="img-thumbnail" src="https://img4.goodfon.ru/wallpaper/big/c/d0/miaso-steik-spetsii-ogon-plamia-gril.jpg" alt=""></div>
             </div>
         </div>
     </section>
     <section class="sets">
         <div class="container-fluid">
             <div class="row">
-                <img src="https://www.grizzlysnacks.de/media/image/08/e3/28/bj_banner_3_1280x1280.jpg" class="cont-baner img-fluid" alt="">
+                <img src="https://img5.goodfon.ru/original/1366x768/f/9c/les-nebo-zakat-gory-ozero-otrazhenie-bereg-vershiny-vecher-e.jpg?d=1" class="cont-baner img-fluid" alt="">
             </div>
          </div>
         <div class="container">
@@ -41,25 +41,25 @@
             <hr>
             <div class="set_rortator row">
                 <div class="col-lg-3 col-sm-6 text-center">
-                    <img src="https://www.grizzlysnacks.de/media/image/cc/7a/ef/bj_cp_50_front_200x200.jpg" alt="">
+                    <img src="https://img4.goodfon.ru/wallpaper/big/c/d0/miaso-steik-spetsii-ogon-plamia-gril.jpg" alt="">
                     <p> Говядина Джерки - Трещины перец 50 г</p>
                     <i>Cодежание 50г(9,8*100г)</i>
                     <p><b>4,9e</b></p>
                 </div>
                 <div class="col-lg-3 col-sm-6 text-center">
-                    <img src="https://www.grizzlysnacks.de/media/image/cc/7a/ef/bj_cp_50_front_200x200.jpg" alt="">
+                    <img src="https://img4.goodfon.ru/wallpaper/big/c/d0/miaso-steik-spetsii-ogon-plamia-gril.jpg" alt="">
                     <p> Говядина Джерки - Трещины перец 50 г</p>
                     <i>Cодежание 50г(9,8*100г)</i>
                     <p><b>4,9e</b></p>
                 </div>
                 <div class="col-lg-3 col-sm-6 text-center">
-                    <img src="https://www.grizzlysnacks.de/media/image/cc/7a/ef/bj_cp_50_front_200x200.jpg" alt="">
+                    <img src="https://img4.goodfon.ru/wallpaper/big/c/d0/miaso-steik-spetsii-ogon-plamia-gril.jpg" alt="">
                     <p> Говядина Джерки - Трещины перец 50 г</p>
                     <i>Cодежание 50г(9,8*100г)</i>
                     <p><b>4,9e</b></p>
                 </div>
                 <div class="col-lg-3 col-sm-6 text-center">
-                    <img src="https://www.grizzlysnacks.de/media/image/cc/7a/ef/bj_cp_50_front_200x200.jpg" alt="">
+                    <img src="https://img4.goodfon.ru/wallpaper/big/c/d0/miaso-steik-spetsii-ogon-plamia-gril.jpg" alt="">
                     <p> Говядина Джерки - Трещины перец 50 г</p>
                     <i>Cодежание 50г(9,8*100г)</i>
                     <p><b>4,9e</b></p>

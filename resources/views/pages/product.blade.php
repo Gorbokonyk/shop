@@ -7,7 +7,7 @@
         <div class="row pt-lg-5">
             <div class="col-lg-6 text-center">
                 <h2>Говядина Джерки - Вводный комплект</h2>
-                <img src="https://www.grizzlysnacks.de/media/image/c9/01/bd/bj_ks_50_600x600.jpg" alt="" class="img-thumbnail">
+                <img src="https://img4.goodfon.ru/wallpaper/big/c/d0/miaso-steik-spetsii-ogon-plamia-gril.jpg" alt="" class="img-thumbnail">
             </div>
             <div class="col-lg-6 pl-5 ">
                 <p class="price"><b>14,50 € *</b></p>
