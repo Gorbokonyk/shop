@@ -5,10 +5,10 @@
 </head>
 
 <body>
-
+@include('partials.header')
 @include('partials.nav')
 
-<div class="container">
+<div class="contant">
 
     @yield('content')
 
