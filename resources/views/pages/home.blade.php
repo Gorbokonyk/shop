@@ -37,7 +37,7 @@
             <div class="row">
                 <img src="https://img5.goodfon.ru/original/1366x768/f/9c/les-nebo-zakat-gory-ozero-otrazhenie-bereg-vershiny-vecher-e.jpg?d=1" class="cont-baner img-fluid" alt="">
             </div>
-         </div>
+        </div>
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-7 text-center">
@@ -74,7 +74,7 @@
                 </div>
             </div>
 
-           </div>
+        </div>
         </div>
     </section
     <section class="social">

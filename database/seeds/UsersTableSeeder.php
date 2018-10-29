@@ -12,31 +12,12 @@ class UsersTableSeeder extends Seeder
     {
         $insert = [
             [
-                'name' => 'Oleg',
-                'email' => 'Oleg.Okhrymenko@gmail.com',
-                'role' => 'admin',
-                'password' => bcrypt('secret'),
+                'name' => 'user',
+                'email' => 'user@user.com',
+                'password' => bcrypt(env('ADMIN_PASSWORD')),
                 'email_verified_at' => 1,
                 'created_at' => NULL,
                 'updated_at' => NULL
-            ],
-            [
-                'name' => 'Alexey',
-                'email' => 'Alexey@gmail.com',
-                'role' => 'admin',
-                'password' => bcrypt('secret'),
-                'email_verified_at' => 1,
-                'created_at' => NULL,
-                'updated_at' => NULL,
-            ],
-            [
-                'name' => 'Shasha',
-                'email' => 'Shasha@gmail.com',
-                'role' => 'admin',
-                'password' => bcrypt('secret'),
-                'email_verified_at' => 1,
-                'created_at' => NULL,
-                'updated_at' => NULL,
             ],
         ];
         DB::table('users')->insert($insert);
