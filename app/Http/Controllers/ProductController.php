@@ -10,7 +10,7 @@ class ProductController extends Controller
     {
 
 
-        return view('pages.product');
+        return view('front.pages.product');
     }
     public function getJson()
     {

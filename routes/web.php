@@ -12,7 +12,11 @@
 */
 
 Route::get('/', function () {
-    return view('pages.home');
+    return view('front.pages.home');
 });
 Route::get('/product', 'ProductController@index');
 Route::get('/product/get-json', 'ProductController@getJson');
+
+Route::get('admin/product', 'ProductAdminController@index');
+Route::get('admin/product/create', 'ProductAdminController@create');
+Route::post('admin/product/store', 'ProductAdminController@store')->name('store_product');

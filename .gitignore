@@ -17,3 +17,4 @@ yarn-error.log
 /public/.htaccess
 .htaccess
 package-lock.json
+/storage/debugbar
