@@ -1,7 +1,10 @@
 <?php
+
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
-class UsersTableSeeder extends Seeder
+
+
+class AdminSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -12,14 +15,14 @@ class UsersTableSeeder extends Seeder
     {
         $insert = [
             [
-                'name' => 'user',
-                'email' => 'user@user.com',
+                'name' => 'admin',
+                'email' => 'admin@admin.com',
                 'password' => bcrypt(env('ADMIN_PASSWORD')),
                 'email_verified_at' => 1,
                 'created_at' => NULL,
                 'updated_at' => NULL
             ],
         ];
-        DB::table('users')->insert($insert);
+        DB::table('admins')->insert($insert);
     }
 }
