@@ -1,10 +1,8 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use Illuminate\Support\Facades\DB;
 
-
-class AdminSeeder extends Seeder
+class ForAdmin extends Seeder
 {
     /**
      * Run the database seeds.
