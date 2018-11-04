@@ -14,6 +14,7 @@ yarn-error.log
 .phpunit.result.cache
 .gitmodules
 /laradock_shop
+/laradock
 /public/.htaccess
 .htaccess
 package-lock.json
