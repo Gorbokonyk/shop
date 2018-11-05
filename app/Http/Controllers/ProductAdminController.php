@@ -44,15 +44,16 @@ class ProductAdminController extends Controller
             $filename = pathinfo($filenameWithExt, PATHINFO_FILENAME);
             $extension = $request->file('image')->getClientOriginalExtension();
             $fileNameToStore= $filename.'_'.time().'.'.$extension;
-            $path = $request->file('image')->storeAs('public', $fileNameToStore);
+            $path = $request->file('image')->storeAs('public/image', $fileNameToStore);
         } else {
             $fileNameToStore = 'noimage.jpg';
         }
-        $product = Product::create($request->all());
         $image = new Image();
-        $image->product_id = $product->id;
         $image->name = $fileNameToStore;
         $image->save();
+        $product = Product::create($request->all());
+        $product->image()->sync($image, false);
+
 
     }
 

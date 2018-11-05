@@ -14,8 +14,9 @@ class Product extends Model
         'is_active',
     ];
 
+
     public function image()
     {
-        return $this->hasMany(Image::class);
+        return $this->belongsToMany(Image::class, 'intermediaries', 'image_id', 'product_id');
     }
 }
