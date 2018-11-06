@@ -28,6 +28,8 @@ img{
     background-image: url("https://img5.goodfon.ru/original/1366x768/f/9c/les-nebo-zakat-gory-ozero-otrazhenie-bereg-vershiny-vecher-e.jpg?d=1");
     background-repeat:no-repeat;
     background-position: center;
+    background-size: cover;
+    width: 100%;
 
 }
 section,h3{
