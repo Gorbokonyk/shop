@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Image;
+use App\Models\Intermediary;
 use App\Product;
 use Illuminate\Http\Request;
 
@@ -53,9 +54,23 @@ class ProductAdminController extends Controller
         $image->save();
         $product = Product::create($request->all());
         $product->image()->sync($image, false);
-
-
+//        return redirect(route('create_product'));
+//        Intermediary::where('ty')
+//        $product->update(['type'=>'product']);
+//        dd($product);
     }
+//    private function fileStore()
+//    {
+//        if($request->hasFile('image')){
+//            $filenameWithExt = $request->file('image')->getClientOriginalName();
+//            $filename = pathinfo($filenameWithExt, PATHINFO_FILENAME);
+//            $extension = $request->file('image')->getClientOriginalExtension();
+//            $fileNameToStore= $filename.'_'.time().'.'.$extension;
+//            $path = $request->file('image')->storeAs('public/image', $fileNameToStore);
+//        } else {
+//            $fileNameToStore = 'noimage.jpg';
+//        }
+//    }
 
        /**
      * Display the specified resource.

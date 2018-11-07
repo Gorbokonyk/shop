@@ -13,10 +13,12 @@ class Product extends Model
         'size',
         'is_active',
     ];
+    protected $with = ['image'];
+
 
 
     public function image()
     {
-        return $this->belongsToMany(Image::class, 'intermediaries', 'image_id', 'product_id');
+        return $this->belongsToMany(Image::class, 'intermediaries', 'image_id', 'item_id');
     }
 }

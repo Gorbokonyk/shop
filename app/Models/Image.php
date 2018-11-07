@@ -13,6 +13,6 @@ class Image extends Model
     ];
     public function product()
     {
-        return $this->belongsToMany(Product::class, 'intermediaries', 'product_id', 'image_id');
+        return $this->belongsToMany(Product::class, 'intermediaries' );
     }
 }
