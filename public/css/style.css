@@ -1,5 +1,10 @@
-.active{
+.router-link-active{
     background: #000000!important;
+    color:#fff;
+}
+
+.nav{
+    margin-bottom: 40px;
 }
 
 .nav-link{
