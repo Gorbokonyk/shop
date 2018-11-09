@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('pages.home');
+    return view('main');
 });
 Route::get('/product', 'ProductController@index');
 Route::get('/product/get-json', 'ProductController@getJson');

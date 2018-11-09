@@ -1,25 +1,20 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     @include('partials.head')
 </head>
-
 <body>
-@include('partials.header')
-@include('partials.nav')
 
-<div class="contant">
 
-    @yield('content')
+    <div id="app">
+        <router-view></router-view>
+    </div>
 
-    @include('partials.footer')
+    <script src="{{asset('js/app.js')}}"></script>
+    @include('partials.javascript')
 
-</div> <!-- end of .container -->
-
-@include('partials.javascript')
-
-{{--JS for all pages --}}
-@yield('scripts')
+    {{--JS for all pages --}}
+    @yield('scripts')
 
 </body>
 </html>
